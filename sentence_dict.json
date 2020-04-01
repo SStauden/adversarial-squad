@@ -1,0 +1,2702 @@
+{
+  "pos_end_nn": [
+    {
+      "text": "Levi's Stadium", 
+      "answer_start": 355, 
+      "question": "What venue did Super Bowl 50 take place in?", 
+      "qas_id": "56beace93aeaaa14008c91e0", 
+      "corenlp": {
+        "tokens": [
+          {
+            "index": 1, 
+            "word": "Levi", 
+            "lemma": "Levi", 
+            "after": "", 
+            "pos": "NNP", 
+            "characterOffsetEnd": 4, 
+            "characterOffsetBegin": 0, 
+            "originalText": "Levi", 
+            "ner": "PERSON", 
+            "before": ""
+          }, 
+          {
+            "index": 2, 
+            "word": "'s", 
+            "lemma": "'s", 
+            "after": " ", 
+            "pos": "POS", 
+            "characterOffsetEnd": 6, 
+            "characterOffsetBegin": 4, 
+            "originalText": "'s", 
+            "ner": "O", 
+            "before": ""
+          }, 
+          {
+            "index": 3, 
+            "word": "Stadium", 
+            "lemma": "stadium", 
+            "after": "", 
+            "pos": "NN", 
+            "characterOffsetEnd": 14, 
+            "characterOffsetBegin": 7, 
+            "originalText": "Stadium", 
+            "ner": "O", 
+            "before": " "
+          }
+        ], 
+        "index": 0, 
+        "basic-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 3, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "Stadium"
+          }, 
+          {
+            "dep": "nmod:poss", 
+            "dependent": 1, 
+            "governorGloss": "Stadium", 
+            "governor": 3, 
+            "dependentGloss": "Levi"
+          }, 
+          {
+            "dep": "case", 
+            "dependent": 2, 
+            "governorGloss": "Levi", 
+            "governor": 1, 
+            "dependentGloss": "'s"
+          }
+        ], 
+        "parse": "(ROOT\n  (NP\n    (NP (NNP Levi) (POS 's))\n    (NN Stadium)))", 
+        "collapsed-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 3, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "Stadium"
+          }, 
+          {
+            "dep": "nmod:poss", 
+            "dependent": 1, 
+            "governorGloss": "Stadium", 
+            "governor": 3, 
+            "dependentGloss": "Levi"
+          }, 
+          {
+            "dep": "case", 
+            "dependent": 2, 
+            "governorGloss": "Levi", 
+            "governor": 1, 
+            "dependentGloss": "'s"
+          }
+        ], 
+        "collapsed-ccprocessed-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 3, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "Stadium"
+          }, 
+          {
+            "dep": "nmod:poss", 
+            "dependent": 1, 
+            "governorGloss": "Stadium", 
+            "governor": 3, 
+            "dependentGloss": "Levi"
+          }, 
+          {
+            "dep": "case", 
+            "dependent": 2, 
+            "governorGloss": "Levi", 
+            "governor": 1, 
+            "dependentGloss": "'s"
+          }
+        ], 
+        "line": 1
+      }, 
+      "new_answer": "hamster"
+    }, 
+    {
+      "text": "Levi's Stadium", 
+      "answer_start": 355, 
+      "question": "What venue did Super Bowl 50 take place in?", 
+      "qas_id": "56beace93aeaaa14008c91e0", 
+      "corenlp": {
+        "tokens": [
+          {
+            "index": 1, 
+            "word": "Levi", 
+            "lemma": "Levi", 
+            "after": "", 
+            "pos": "NNP", 
+            "characterOffsetEnd": 4, 
+            "characterOffsetBegin": 0, 
+            "originalText": "Levi", 
+            "ner": "PERSON", 
+            "before": ""
+          }, 
+          {
+            "index": 2, 
+            "word": "'s", 
+            "lemma": "'s", 
+            "after": " ", 
+            "pos": "POS", 
+            "characterOffsetEnd": 6, 
+            "characterOffsetBegin": 4, 
+            "originalText": "'s", 
+            "ner": "O", 
+            "before": ""
+          }, 
+          {
+            "index": 3, 
+            "word": "Stadium", 
+            "lemma": "stadium", 
+            "after": "", 
+            "pos": "NN", 
+            "characterOffsetEnd": 14, 
+            "characterOffsetBegin": 7, 
+            "originalText": "Stadium", 
+            "ner": "O", 
+            "before": " "
+          }
+        ], 
+        "index": 0, 
+        "basic-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 3, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "Stadium"
+          }, 
+          {
+            "dep": "nmod:poss", 
+            "dependent": 1, 
+            "governorGloss": "Stadium", 
+            "governor": 3, 
+            "dependentGloss": "Levi"
+          }, 
+          {
+            "dep": "case", 
+            "dependent": 2, 
+            "governorGloss": "Levi", 
+            "governor": 1, 
+            "dependentGloss": "'s"
+          }
+        ], 
+        "parse": "(ROOT\n  (NP\n    (NP (NNP Levi) (POS 's))\n    (NN Stadium)))", 
+        "collapsed-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 3, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "Stadium"
+          }, 
+          {
+            "dep": "nmod:poss", 
+            "dependent": 1, 
+            "governorGloss": "Stadium", 
+            "governor": 3, 
+            "dependentGloss": "Levi"
+          }, 
+          {
+            "dep": "case", 
+            "dependent": 2, 
+            "governorGloss": "Levi", 
+            "governor": 1, 
+            "dependentGloss": "'s"
+          }
+        ], 
+        "collapsed-ccprocessed-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 3, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "Stadium"
+          }, 
+          {
+            "dep": "nmod:poss", 
+            "dependent": 1, 
+            "governorGloss": "Stadium", 
+            "governor": 3, 
+            "dependentGloss": "Levi"
+          }, 
+          {
+            "dep": "case", 
+            "dependent": 2, 
+            "governorGloss": "Levi", 
+            "governor": 1, 
+            "dependentGloss": "'s"
+          }
+        ], 
+        "line": 1
+      }, 
+      "new_answer": "hamster"
+    }
+  ], 
+  "number": [
+    {
+      "text": "24\u201310", 
+      "answer_start": 267, 
+      "question": "What was the final score of Super Bowl 50? ", 
+      "qas_id": "56bf10f43aeaaa14008c9500", 
+      "corenlp": {
+        "tokens": [
+          {
+            "index": 1, 
+            "after": "", 
+            "word": "24", 
+            "lemma": "24", 
+            "normalizedNER": "24.0", 
+            "pos": "CD", 
+            "characterOffsetEnd": 2, 
+            "characterOffsetBegin": 0, 
+            "originalText": "24", 
+            "ner": "NUMBER", 
+            "before": ""
+          }, 
+          {
+            "index": 2, 
+            "word": "--", 
+            "lemma": "--", 
+            "after": "", 
+            "pos": ":", 
+            "characterOffsetEnd": 3, 
+            "characterOffsetBegin": 2, 
+            "originalText": "\u2013", 
+            "ner": "O", 
+            "before": ""
+          }, 
+          {
+            "index": 3, 
+            "after": "\u0000\u0000", 
+            "word": "10", 
+            "lemma": "10", 
+            "normalizedNER": "10.0", 
+            "pos": "CD", 
+            "characterOffsetEnd": 5, 
+            "characterOffsetBegin": 3, 
+            "originalText": "10", 
+            "ner": "NUMBER", 
+            "before": ""
+          }
+        ], 
+        "index": 0, 
+        "basic-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 1, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "24"
+          }, 
+          {
+            "dep": "punct", 
+            "dependent": 2, 
+            "governorGloss": "24", 
+            "governor": 1, 
+            "dependentGloss": "--"
+          }, 
+          {
+            "dep": "dep", 
+            "dependent": 3, 
+            "governorGloss": "24", 
+            "governor": 1, 
+            "dependentGloss": "10"
+          }
+        ], 
+        "parse": "(ROOT\n  (NP\n    (NP (CD 24))\n    (: --)\n    (NP (CD 10))))", 
+        "collapsed-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 1, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "24"
+          }, 
+          {
+            "dep": "punct", 
+            "dependent": 2, 
+            "governorGloss": "24", 
+            "governor": 1, 
+            "dependentGloss": "--"
+          }, 
+          {
+            "dep": "dep", 
+            "dependent": 3, 
+            "governorGloss": "24", 
+            "governor": 1, 
+            "dependentGloss": "10"
+          }
+        ], 
+        "collapsed-ccprocessed-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 1, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "24"
+          }, 
+          {
+            "dep": "punct", 
+            "dependent": 2, 
+            "governorGloss": "24", 
+            "governor": 1, 
+            "dependentGloss": "--"
+          }, 
+          {
+            "dep": "dep", 
+            "dependent": 3, 
+            "governorGloss": "24", 
+            "governor": 1, 
+            "dependentGloss": "10"
+          }
+        ], 
+        "line": 1
+      }, 
+      "new_answer": "74\u201360"
+    }, 
+    {
+      "text": "24\u201310", 
+      "answer_start": 267, 
+      "question": "What was the final score of Super Bowl 50? ", 
+      "qas_id": "56bf10f43aeaaa14008c9500", 
+      "corenlp": {
+        "tokens": [
+          {
+            "index": 1, 
+            "after": "", 
+            "word": "24", 
+            "lemma": "24", 
+            "normalizedNER": "24.0", 
+            "pos": "CD", 
+            "characterOffsetEnd": 2, 
+            "characterOffsetBegin": 0, 
+            "originalText": "24", 
+            "ner": "NUMBER", 
+            "before": ""
+          }, 
+          {
+            "index": 2, 
+            "word": "--", 
+            "lemma": "--", 
+            "after": "", 
+            "pos": ":", 
+            "characterOffsetEnd": 3, 
+            "characterOffsetBegin": 2, 
+            "originalText": "\u2013", 
+            "ner": "O", 
+            "before": ""
+          }, 
+          {
+            "index": 3, 
+            "after": "\u0000\u0000", 
+            "word": "10", 
+            "lemma": "10", 
+            "normalizedNER": "10.0", 
+            "pos": "CD", 
+            "characterOffsetEnd": 5, 
+            "characterOffsetBegin": 3, 
+            "originalText": "10", 
+            "ner": "NUMBER", 
+            "before": ""
+          }
+        ], 
+        "index": 0, 
+        "basic-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 1, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "24"
+          }, 
+          {
+            "dep": "punct", 
+            "dependent": 2, 
+            "governorGloss": "24", 
+            "governor": 1, 
+            "dependentGloss": "--"
+          }, 
+          {
+            "dep": "dep", 
+            "dependent": 3, 
+            "governorGloss": "24", 
+            "governor": 1, 
+            "dependentGloss": "10"
+          }
+        ], 
+        "parse": "(ROOT\n  (NP\n    (NP (CD 24))\n    (: --)\n    (NP (CD 10))))", 
+        "collapsed-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 1, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "24"
+          }, 
+          {
+            "dep": "punct", 
+            "dependent": 2, 
+            "governorGloss": "24", 
+            "governor": 1, 
+            "dependentGloss": "--"
+          }, 
+          {
+            "dep": "dep", 
+            "dependent": 3, 
+            "governorGloss": "24", 
+            "governor": 1, 
+            "dependentGloss": "10"
+          }
+        ], 
+        "collapsed-ccprocessed-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 1, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "24"
+          }, 
+          {
+            "dep": "punct", 
+            "dependent": 2, 
+            "governorGloss": "24", 
+            "governor": 1, 
+            "dependentGloss": "--"
+          }, 
+          {
+            "dep": "dep", 
+            "dependent": 3, 
+            "governorGloss": "24", 
+            "governor": 1, 
+            "dependentGloss": "10"
+          }
+        ], 
+        "line": 1
+      }, 
+      "new_answer": "74\u201360"
+    }, 
+    {
+      "text": "24\u201310", 
+      "answer_start": 267, 
+      "question": "What was the final score of Super Bowl 50? ", 
+      "qas_id": "56bf10f43aeaaa14008c9500", 
+      "corenlp": {
+        "tokens": [
+          {
+            "index": 1, 
+            "after": "", 
+            "word": "24", 
+            "lemma": "24", 
+            "normalizedNER": "24.0", 
+            "pos": "CD", 
+            "characterOffsetEnd": 2, 
+            "characterOffsetBegin": 0, 
+            "originalText": "24", 
+            "ner": "NUMBER", 
+            "before": ""
+          }, 
+          {
+            "index": 2, 
+            "word": "--", 
+            "lemma": "--", 
+            "after": "", 
+            "pos": ":", 
+            "characterOffsetEnd": 3, 
+            "characterOffsetBegin": 2, 
+            "originalText": "\u2013", 
+            "ner": "O", 
+            "before": ""
+          }, 
+          {
+            "index": 3, 
+            "after": "\u0000\u0000", 
+            "word": "10", 
+            "lemma": "10", 
+            "normalizedNER": "10.0", 
+            "pos": "CD", 
+            "characterOffsetEnd": 5, 
+            "characterOffsetBegin": 3, 
+            "originalText": "10", 
+            "ner": "NUMBER", 
+            "before": ""
+          }
+        ], 
+        "index": 0, 
+        "basic-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 1, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "24"
+          }, 
+          {
+            "dep": "punct", 
+            "dependent": 2, 
+            "governorGloss": "24", 
+            "governor": 1, 
+            "dependentGloss": "--"
+          }, 
+          {
+            "dep": "dep", 
+            "dependent": 3, 
+            "governorGloss": "24", 
+            "governor": 1, 
+            "dependentGloss": "10"
+          }
+        ], 
+        "parse": "(ROOT\n  (NP\n    (NP (CD 24))\n    (: --)\n    (NP (CD 10))))", 
+        "collapsed-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 1, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "24"
+          }, 
+          {
+            "dep": "punct", 
+            "dependent": 2, 
+            "governorGloss": "24", 
+            "governor": 1, 
+            "dependentGloss": "--"
+          }, 
+          {
+            "dep": "dep", 
+            "dependent": 3, 
+            "governorGloss": "24", 
+            "governor": 1, 
+            "dependentGloss": "10"
+          }
+        ], 
+        "collapsed-ccprocessed-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 1, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "24"
+          }, 
+          {
+            "dep": "punct", 
+            "dependent": 2, 
+            "governorGloss": "24", 
+            "governor": 1, 
+            "dependentGloss": "--"
+          }, 
+          {
+            "dep": "dep", 
+            "dependent": 3, 
+            "governorGloss": "24", 
+            "governor": 1, 
+            "dependentGloss": "10"
+          }
+        ], 
+        "line": 1
+      }, 
+      "new_answer": "74\u201360"
+    }
+  ], 
+  "ner_organization": [
+    {
+      "text": "Denver Broncos", 
+      "answer_start": 177, 
+      "question": "Who won Super Bowl 50?", 
+      "qas_id": "56d20362e7d4791d009025eb", 
+      "corenlp": {
+        "tokens": [
+          {
+            "index": 1, 
+            "word": "Denver", 
+            "lemma": "Denver", 
+            "after": " ", 
+            "pos": "NNP", 
+            "characterOffsetEnd": 6, 
+            "characterOffsetBegin": 0, 
+            "originalText": "Denver", 
+            "ner": "ORGANIZATION", 
+            "before": ""
+          }, 
+          {
+            "index": 2, 
+            "word": "Broncos", 
+            "lemma": "bronco", 
+            "after": "", 
+            "pos": "NNS", 
+            "characterOffsetEnd": 14, 
+            "characterOffsetBegin": 7, 
+            "originalText": "Broncos", 
+            "ner": "ORGANIZATION", 
+            "before": " "
+          }
+        ], 
+        "index": 0, 
+        "basic-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 2, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "Broncos"
+          }, 
+          {
+            "dep": "compound", 
+            "dependent": 1, 
+            "governorGloss": "Broncos", 
+            "governor": 2, 
+            "dependentGloss": "Denver"
+          }
+        ], 
+        "parse": "(ROOT\n  (NP (NNP Denver) (NNS Broncos)))", 
+        "collapsed-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 2, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "Broncos"
+          }, 
+          {
+            "dep": "compound", 
+            "dependent": 1, 
+            "governorGloss": "Broncos", 
+            "governor": 2, 
+            "dependentGloss": "Denver"
+          }
+        ], 
+        "collapsed-ccprocessed-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 2, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "Broncos"
+          }, 
+          {
+            "dep": "compound", 
+            "dependent": 1, 
+            "governorGloss": "Broncos", 
+            "governor": 2, 
+            "dependentGloss": "Denver"
+          }
+        ], 
+        "line": 1
+      }, 
+      "new_answer": "Stark Industries"
+    }, 
+    {
+      "text": "Denver Broncos", 
+      "answer_start": 177, 
+      "question": "Who won Super Bowl 50?", 
+      "qas_id": "56d20362e7d4791d009025eb", 
+      "corenlp": {
+        "tokens": [
+          {
+            "index": 1, 
+            "word": "Denver", 
+            "lemma": "Denver", 
+            "after": " ", 
+            "pos": "NNP", 
+            "characterOffsetEnd": 6, 
+            "characterOffsetBegin": 0, 
+            "originalText": "Denver", 
+            "ner": "ORGANIZATION", 
+            "before": ""
+          }, 
+          {
+            "index": 2, 
+            "word": "Broncos", 
+            "lemma": "bronco", 
+            "after": "", 
+            "pos": "NNS", 
+            "characterOffsetEnd": 14, 
+            "characterOffsetBegin": 7, 
+            "originalText": "Broncos", 
+            "ner": "ORGANIZATION", 
+            "before": " "
+          }
+        ], 
+        "index": 0, 
+        "basic-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 2, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "Broncos"
+          }, 
+          {
+            "dep": "compound", 
+            "dependent": 1, 
+            "governorGloss": "Broncos", 
+            "governor": 2, 
+            "dependentGloss": "Denver"
+          }
+        ], 
+        "parse": "(ROOT\n  (NP (NNP Denver) (NNS Broncos)))", 
+        "collapsed-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 2, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "Broncos"
+          }, 
+          {
+            "dep": "compound", 
+            "dependent": 1, 
+            "governorGloss": "Broncos", 
+            "governor": 2, 
+            "dependentGloss": "Denver"
+          }
+        ], 
+        "collapsed-ccprocessed-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 2, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "Broncos"
+          }, 
+          {
+            "dep": "compound", 
+            "dependent": 1, 
+            "governorGloss": "Broncos", 
+            "governor": 2, 
+            "dependentGloss": "Denver"
+          }
+        ], 
+        "line": 1
+      }, 
+      "new_answer": "Stark Industries"
+    }, 
+    {
+      "text": "Denver Broncos", 
+      "answer_start": 177, 
+      "question": "Who won Super Bowl 50?", 
+      "qas_id": "56d20362e7d4791d009025eb", 
+      "corenlp": {
+        "tokens": [
+          {
+            "index": 1, 
+            "word": "Denver", 
+            "lemma": "Denver", 
+            "after": " ", 
+            "pos": "NNP", 
+            "characterOffsetEnd": 6, 
+            "characterOffsetBegin": 0, 
+            "originalText": "Denver", 
+            "ner": "ORGANIZATION", 
+            "before": ""
+          }, 
+          {
+            "index": 2, 
+            "word": "Broncos", 
+            "lemma": "bronco", 
+            "after": "", 
+            "pos": "NNS", 
+            "characterOffsetEnd": 14, 
+            "characterOffsetBegin": 7, 
+            "originalText": "Broncos", 
+            "ner": "ORGANIZATION", 
+            "before": " "
+          }
+        ], 
+        "index": 0, 
+        "basic-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 2, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "Broncos"
+          }, 
+          {
+            "dep": "compound", 
+            "dependent": 1, 
+            "governorGloss": "Broncos", 
+            "governor": 2, 
+            "dependentGloss": "Denver"
+          }
+        ], 
+        "parse": "(ROOT\n  (NP (NNP Denver) (NNS Broncos)))", 
+        "collapsed-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 2, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "Broncos"
+          }, 
+          {
+            "dep": "compound", 
+            "dependent": 1, 
+            "governorGloss": "Broncos", 
+            "governor": 2, 
+            "dependentGloss": "Denver"
+          }
+        ], 
+        "collapsed-ccprocessed-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 2, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "Broncos"
+          }, 
+          {
+            "dep": "compound", 
+            "dependent": 1, 
+            "governorGloss": "Broncos", 
+            "governor": 2, 
+            "dependentGloss": "Denver"
+          }
+        ], 
+        "line": 1
+      }, 
+      "new_answer": "Stark Industries"
+    }
+  ], 
+  "date": [
+    {
+      "text": "February 7, 2016", 
+      "answer_start": 334, 
+      "question": "What day was the Super Bowl played on?", 
+      "qas_id": "56bea9923aeaaa14008c91bb", 
+      "corenlp": {
+        "tokens": [
+          {
+            "index": 1, 
+            "after": " ", 
+            "word": "February", 
+            "lemma": "February", 
+            "normalizedNER": "2016-02-07", 
+            "pos": "NNP", 
+            "characterOffsetEnd": 8, 
+            "timex": {
+              "tid": "t1", 
+              "type": "DATE", 
+              "value": "2016-02-07"
+            }, 
+            "characterOffsetBegin": 0, 
+            "originalText": "February", 
+            "ner": "DATE", 
+            "before": ""
+          }, 
+          {
+            "index": 2, 
+            "after": "", 
+            "word": "7", 
+            "lemma": "7", 
+            "normalizedNER": "2016-02-07", 
+            "pos": "CD", 
+            "characterOffsetEnd": 10, 
+            "timex": {
+              "tid": "t1", 
+              "type": "DATE", 
+              "value": "2016-02-07"
+            }, 
+            "characterOffsetBegin": 9, 
+            "originalText": "7", 
+            "ner": "DATE", 
+            "before": " "
+          }, 
+          {
+            "index": 3, 
+            "after": " ", 
+            "word": ",", 
+            "lemma": ",", 
+            "normalizedNER": "2016-02-07", 
+            "pos": ",", 
+            "characterOffsetEnd": 11, 
+            "timex": {
+              "tid": "t1", 
+              "type": "DATE", 
+              "value": "2016-02-07"
+            }, 
+            "characterOffsetBegin": 10, 
+            "originalText": ",", 
+            "ner": "DATE", 
+            "before": ""
+          }, 
+          {
+            "index": 4, 
+            "after": "", 
+            "word": "2016", 
+            "lemma": "2016", 
+            "normalizedNER": "2016-02-07", 
+            "pos": "CD", 
+            "characterOffsetEnd": 16, 
+            "timex": {
+              "tid": "t1", 
+              "type": "DATE", 
+              "value": "2016-02-07"
+            }, 
+            "characterOffsetBegin": 12, 
+            "originalText": "2016", 
+            "ner": "DATE", 
+            "before": " "
+          }
+        ], 
+        "index": 0, 
+        "basic-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 1, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "February"
+          }, 
+          {
+            "dep": "nummod", 
+            "dependent": 2, 
+            "governorGloss": "February", 
+            "governor": 1, 
+            "dependentGloss": "7"
+          }, 
+          {
+            "dep": "punct", 
+            "dependent": 3, 
+            "governorGloss": "February", 
+            "governor": 1, 
+            "dependentGloss": ","
+          }, 
+          {
+            "dep": "nummod", 
+            "dependent": 4, 
+            "governorGloss": "February", 
+            "governor": 1, 
+            "dependentGloss": "2016"
+          }
+        ], 
+        "parse": "(ROOT\n  (NP\n    (NP (NNP February) (CD 7))\n    (, ,)\n    (NP (CD 2016))))", 
+        "collapsed-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 1, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "February"
+          }, 
+          {
+            "dep": "nummod", 
+            "dependent": 2, 
+            "governorGloss": "February", 
+            "governor": 1, 
+            "dependentGloss": "7"
+          }, 
+          {
+            "dep": "punct", 
+            "dependent": 3, 
+            "governorGloss": "February", 
+            "governor": 1, 
+            "dependentGloss": ","
+          }, 
+          {
+            "dep": "nummod", 
+            "dependent": 4, 
+            "governorGloss": "February", 
+            "governor": 1, 
+            "dependentGloss": "2016"
+          }
+        ], 
+        "collapsed-ccprocessed-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 1, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "February"
+          }, 
+          {
+            "dep": "nummod", 
+            "dependent": 2, 
+            "governorGloss": "February", 
+            "governor": 1, 
+            "dependentGloss": "7"
+          }, 
+          {
+            "dep": "punct", 
+            "dependent": 3, 
+            "governorGloss": "February", 
+            "governor": 1, 
+            "dependentGloss": ","
+          }, 
+          {
+            "dep": "nummod", 
+            "dependent": 4, 
+            "governorGloss": "February", 
+            "governor": 1, 
+            "dependentGloss": "2016"
+          }
+        ], 
+        "line": 1
+      }, 
+      "new_answer": "August 18, 1991"
+    }, 
+    {
+      "text": "February 7", 
+      "answer_start": 334, 
+      "question": "What day was the Super Bowl played on?", 
+      "qas_id": "56bea9923aeaaa14008c91bb", 
+      "corenlp": {
+        "tokens": [
+          {
+            "index": 1, 
+            "after": " ", 
+            "word": "February", 
+            "lemma": "February", 
+            "normalizedNER": "XXXX-02-07", 
+            "pos": "NNP", 
+            "characterOffsetEnd": 8, 
+            "timex": {
+              "tid": "t1", 
+              "type": "DATE", 
+              "value": "XXXX-02-07"
+            }, 
+            "characterOffsetBegin": 0, 
+            "originalText": "February", 
+            "ner": "DATE", 
+            "before": ""
+          }, 
+          {
+            "index": 2, 
+            "after": "", 
+            "word": "7", 
+            "lemma": "7", 
+            "normalizedNER": "XXXX-02-07", 
+            "pos": "CD", 
+            "characterOffsetEnd": 10, 
+            "timex": {
+              "tid": "t1", 
+              "type": "DATE", 
+              "value": "XXXX-02-07"
+            }, 
+            "characterOffsetBegin": 9, 
+            "originalText": "7", 
+            "ner": "DATE", 
+            "before": " "
+          }
+        ], 
+        "index": 0, 
+        "basic-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 1, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "February"
+          }, 
+          {
+            "dep": "nummod", 
+            "dependent": 2, 
+            "governorGloss": "February", 
+            "governor": 1, 
+            "dependentGloss": "7"
+          }
+        ], 
+        "parse": "(ROOT\n  (NP\n    (NP (NNP February))\n    (NP (CD 7))))", 
+        "collapsed-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 1, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "February"
+          }, 
+          {
+            "dep": "nummod", 
+            "dependent": 2, 
+            "governorGloss": "February", 
+            "governor": 1, 
+            "dependentGloss": "7"
+          }
+        ], 
+        "collapsed-ccprocessed-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 1, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "February"
+          }, 
+          {
+            "dep": "nummod", 
+            "dependent": 2, 
+            "governorGloss": "February", 
+            "governor": 1, 
+            "dependentGloss": "7"
+          }
+        ], 
+        "line": 1
+      }, 
+      "new_answer": "August 18"
+    }, 
+    {
+      "text": "February 7, 2016", 
+      "answer_start": 334, 
+      "question": "What day was the Super Bowl played on?", 
+      "qas_id": "56bea9923aeaaa14008c91bb", 
+      "corenlp": {
+        "tokens": [
+          {
+            "index": 1, 
+            "after": " ", 
+            "word": "February", 
+            "lemma": "February", 
+            "normalizedNER": "2016-02-07", 
+            "pos": "NNP", 
+            "characterOffsetEnd": 8, 
+            "timex": {
+              "tid": "t1", 
+              "type": "DATE", 
+              "value": "2016-02-07"
+            }, 
+            "characterOffsetBegin": 0, 
+            "originalText": "February", 
+            "ner": "DATE", 
+            "before": ""
+          }, 
+          {
+            "index": 2, 
+            "after": "", 
+            "word": "7", 
+            "lemma": "7", 
+            "normalizedNER": "2016-02-07", 
+            "pos": "CD", 
+            "characterOffsetEnd": 10, 
+            "timex": {
+              "tid": "t1", 
+              "type": "DATE", 
+              "value": "2016-02-07"
+            }, 
+            "characterOffsetBegin": 9, 
+            "originalText": "7", 
+            "ner": "DATE", 
+            "before": " "
+          }, 
+          {
+            "index": 3, 
+            "after": " ", 
+            "word": ",", 
+            "lemma": ",", 
+            "normalizedNER": "2016-02-07", 
+            "pos": ",", 
+            "characterOffsetEnd": 11, 
+            "timex": {
+              "tid": "t1", 
+              "type": "DATE", 
+              "value": "2016-02-07"
+            }, 
+            "characterOffsetBegin": 10, 
+            "originalText": ",", 
+            "ner": "DATE", 
+            "before": ""
+          }, 
+          {
+            "index": 4, 
+            "after": "", 
+            "word": "2016", 
+            "lemma": "2016", 
+            "normalizedNER": "2016-02-07", 
+            "pos": "CD", 
+            "characterOffsetEnd": 16, 
+            "timex": {
+              "tid": "t1", 
+              "type": "DATE", 
+              "value": "2016-02-07"
+            }, 
+            "characterOffsetBegin": 12, 
+            "originalText": "2016", 
+            "ner": "DATE", 
+            "before": " "
+          }
+        ], 
+        "index": 0, 
+        "basic-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 1, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "February"
+          }, 
+          {
+            "dep": "nummod", 
+            "dependent": 2, 
+            "governorGloss": "February", 
+            "governor": 1, 
+            "dependentGloss": "7"
+          }, 
+          {
+            "dep": "punct", 
+            "dependent": 3, 
+            "governorGloss": "February", 
+            "governor": 1, 
+            "dependentGloss": ","
+          }, 
+          {
+            "dep": "nummod", 
+            "dependent": 4, 
+            "governorGloss": "February", 
+            "governor": 1, 
+            "dependentGloss": "2016"
+          }
+        ], 
+        "parse": "(ROOT\n  (NP\n    (NP (NNP February) (CD 7))\n    (, ,)\n    (NP (CD 2016))))", 
+        "collapsed-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 1, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "February"
+          }, 
+          {
+            "dep": "nummod", 
+            "dependent": 2, 
+            "governorGloss": "February", 
+            "governor": 1, 
+            "dependentGloss": "7"
+          }, 
+          {
+            "dep": "punct", 
+            "dependent": 3, 
+            "governorGloss": "February", 
+            "governor": 1, 
+            "dependentGloss": ","
+          }, 
+          {
+            "dep": "nummod", 
+            "dependent": 4, 
+            "governorGloss": "February", 
+            "governor": 1, 
+            "dependentGloss": "2016"
+          }
+        ], 
+        "collapsed-ccprocessed-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 1, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "February"
+          }, 
+          {
+            "dep": "nummod", 
+            "dependent": 2, 
+            "governorGloss": "February", 
+            "governor": 1, 
+            "dependentGloss": "7"
+          }, 
+          {
+            "dep": "punct", 
+            "dependent": 3, 
+            "governorGloss": "February", 
+            "governor": 1, 
+            "dependentGloss": ","
+          }, 
+          {
+            "dep": "nummod", 
+            "dependent": 4, 
+            "governorGloss": "February", 
+            "governor": 1, 
+            "dependentGloss": "2016"
+          }
+        ], 
+        "line": 1
+      }, 
+      "new_answer": "August 18, 1991"
+    }, 
+    {
+      "text": "2015", 
+      "answer_start": 116, 
+      "question": "What year did the Denver Broncos secure a Super Bowl title for the third time?", 
+      "qas_id": "56bf10f43aeaaa14008c94fd", 
+      "corenlp": {
+        "tokens": [
+          {
+            "index": 1, 
+            "after": "", 
+            "word": "2015", 
+            "lemma": "2015", 
+            "normalizedNER": "2015", 
+            "pos": "CD", 
+            "characterOffsetEnd": 4, 
+            "timex": {
+              "tid": "t1", 
+              "type": "DATE", 
+              "value": "2015"
+            }, 
+            "characterOffsetBegin": 0, 
+            "originalText": "2015", 
+            "ner": "DATE", 
+            "before": ""
+          }
+        ], 
+        "index": 0, 
+        "basic-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 1, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "2015"
+          }
+        ], 
+        "parse": "(ROOT\n  (FRAG\n    (NP (CD 2015))))", 
+        "collapsed-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 1, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "2015"
+          }
+        ], 
+        "collapsed-ccprocessed-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 1, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "2015"
+          }
+        ], 
+        "line": 1
+      }, 
+      "new_answer": "1990"
+    }, 
+    {
+      "text": "2016", 
+      "answer_start": 346, 
+      "question": "What year did the Denver Broncos secure a Super Bowl title for the third time?", 
+      "qas_id": "56bf10f43aeaaa14008c94fd", 
+      "corenlp": {
+        "tokens": [
+          {
+            "index": 1, 
+            "after": "", 
+            "word": "2016", 
+            "lemma": "2016", 
+            "normalizedNER": "2016", 
+            "pos": "CD", 
+            "characterOffsetEnd": 4, 
+            "timex": {
+              "tid": "t1", 
+              "type": "DATE", 
+              "value": "2016"
+            }, 
+            "characterOffsetBegin": 0, 
+            "originalText": "2016", 
+            "ner": "DATE", 
+            "before": ""
+          }
+        ], 
+        "index": 0, 
+        "basic-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 1, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "2016"
+          }
+        ], 
+        "parse": "(ROOT\n  (FRAG\n    (NP (CD 2016))))", 
+        "collapsed-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 1, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "2016"
+          }
+        ], 
+        "collapsed-ccprocessed-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 1, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "2016"
+          }
+        ], 
+        "line": 1
+      }, 
+      "new_answer": "1991"
+    }, 
+    {
+      "text": "2015", 
+      "answer_start": 116, 
+      "question": "What year did the Denver Broncos secure a Super Bowl title for the third time?", 
+      "qas_id": "56bf10f43aeaaa14008c94fd", 
+      "corenlp": {
+        "tokens": [
+          {
+            "index": 1, 
+            "after": "", 
+            "word": "2015", 
+            "lemma": "2015", 
+            "normalizedNER": "2015", 
+            "pos": "CD", 
+            "characterOffsetEnd": 4, 
+            "timex": {
+              "tid": "t1", 
+              "type": "DATE", 
+              "value": "2015"
+            }, 
+            "characterOffsetBegin": 0, 
+            "originalText": "2015", 
+            "ner": "DATE", 
+            "before": ""
+          }
+        ], 
+        "index": 0, 
+        "basic-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 1, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "2015"
+          }
+        ], 
+        "parse": "(ROOT\n  (FRAG\n    (NP (CD 2015))))", 
+        "collapsed-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 1, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "2015"
+          }
+        ], 
+        "collapsed-ccprocessed-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 1, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "2015"
+          }
+        ], 
+        "line": 1
+      }, 
+      "new_answer": "1990"
+    }
+  ], 
+  "wh_where": [
+    {
+      "text": "Santa Clara, California", 
+      "answer_start": 403, 
+      "question": "Where did Super Bowl 50 take place?", 
+      "qas_id": "56be4db0acb8001400a502ee", 
+      "corenlp": {
+        "tokens": [
+          {
+            "index": 1, 
+            "word": "Santa", 
+            "lemma": "Santa", 
+            "after": " ", 
+            "pos": "NNP", 
+            "characterOffsetEnd": 5, 
+            "characterOffsetBegin": 0, 
+            "originalText": "Santa", 
+            "ner": "LOCATION", 
+            "before": ""
+          }, 
+          {
+            "index": 2, 
+            "word": "Clara", 
+            "lemma": "Clara", 
+            "after": "", 
+            "pos": "NNP", 
+            "characterOffsetEnd": 11, 
+            "characterOffsetBegin": 6, 
+            "originalText": "Clara", 
+            "ner": "LOCATION", 
+            "before": " "
+          }, 
+          {
+            "index": 3, 
+            "word": ",", 
+            "lemma": ",", 
+            "after": " ", 
+            "pos": ",", 
+            "characterOffsetEnd": 12, 
+            "characterOffsetBegin": 11, 
+            "originalText": ",", 
+            "ner": "O", 
+            "before": ""
+          }, 
+          {
+            "index": 4, 
+            "word": "California", 
+            "lemma": "California", 
+            "after": "", 
+            "pos": "NNP", 
+            "characterOffsetEnd": 23, 
+            "characterOffsetBegin": 13, 
+            "originalText": "California", 
+            "ner": "LOCATION", 
+            "before": " "
+          }
+        ], 
+        "index": 0, 
+        "basic-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 2, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "Clara"
+          }, 
+          {
+            "dep": "compound", 
+            "dependent": 1, 
+            "governorGloss": "Clara", 
+            "governor": 2, 
+            "dependentGloss": "Santa"
+          }, 
+          {
+            "dep": "punct", 
+            "dependent": 3, 
+            "governorGloss": "Clara", 
+            "governor": 2, 
+            "dependentGloss": ","
+          }, 
+          {
+            "dep": "appos", 
+            "dependent": 4, 
+            "governorGloss": "Clara", 
+            "governor": 2, 
+            "dependentGloss": "California"
+          }
+        ], 
+        "parse": "(ROOT\n  (NP\n    (NP (NNP Santa) (NNP Clara))\n    (, ,)\n    (NP (NNP California))))", 
+        "collapsed-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 2, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "Clara"
+          }, 
+          {
+            "dep": "compound", 
+            "dependent": 1, 
+            "governorGloss": "Clara", 
+            "governor": 2, 
+            "dependentGloss": "Santa"
+          }, 
+          {
+            "dep": "punct", 
+            "dependent": 3, 
+            "governorGloss": "Clara", 
+            "governor": 2, 
+            "dependentGloss": ","
+          }, 
+          {
+            "dep": "appos", 
+            "dependent": 4, 
+            "governorGloss": "Clara", 
+            "governor": 2, 
+            "dependentGloss": "California"
+          }
+        ], 
+        "collapsed-ccprocessed-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 2, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "Clara"
+          }, 
+          {
+            "dep": "compound", 
+            "dependent": 1, 
+            "governorGloss": "Clara", 
+            "governor": 2, 
+            "dependentGloss": "Santa"
+          }, 
+          {
+            "dep": "punct", 
+            "dependent": 3, 
+            "governorGloss": "Clara", 
+            "governor": 2, 
+            "dependentGloss": ","
+          }, 
+          {
+            "dep": "appos", 
+            "dependent": 4, 
+            "governorGloss": "Clara", 
+            "governor": 2, 
+            "dependentGloss": "California"
+          }
+        ], 
+        "line": 1
+      }, 
+      "new_answer": "Chicago"
+    }, 
+    {
+      "text": "Levi's Stadium", 
+      "answer_start": 355, 
+      "question": "Where did Super Bowl 50 take place?", 
+      "qas_id": "56be4db0acb8001400a502ee", 
+      "corenlp": {
+        "tokens": [
+          {
+            "index": 1, 
+            "word": "Levi", 
+            "lemma": "Levi", 
+            "after": "", 
+            "pos": "NNP", 
+            "characterOffsetEnd": 4, 
+            "characterOffsetBegin": 0, 
+            "originalText": "Levi", 
+            "ner": "PERSON", 
+            "before": ""
+          }, 
+          {
+            "index": 2, 
+            "word": "'s", 
+            "lemma": "'s", 
+            "after": " ", 
+            "pos": "POS", 
+            "characterOffsetEnd": 6, 
+            "characterOffsetBegin": 4, 
+            "originalText": "'s", 
+            "ner": "O", 
+            "before": ""
+          }, 
+          {
+            "index": 3, 
+            "word": "Stadium", 
+            "lemma": "stadium", 
+            "after": "", 
+            "pos": "NN", 
+            "characterOffsetEnd": 14, 
+            "characterOffsetBegin": 7, 
+            "originalText": "Stadium", 
+            "ner": "O", 
+            "before": " "
+          }
+        ], 
+        "index": 0, 
+        "basic-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 3, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "Stadium"
+          }, 
+          {
+            "dep": "nmod:poss", 
+            "dependent": 1, 
+            "governorGloss": "Stadium", 
+            "governor": 3, 
+            "dependentGloss": "Levi"
+          }, 
+          {
+            "dep": "case", 
+            "dependent": 2, 
+            "governorGloss": "Levi", 
+            "governor": 1, 
+            "dependentGloss": "'s"
+          }
+        ], 
+        "parse": "(ROOT\n  (NP\n    (NP (NNP Levi) (POS 's))\n    (NN Stadium)))", 
+        "collapsed-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 3, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "Stadium"
+          }, 
+          {
+            "dep": "nmod:poss", 
+            "dependent": 1, 
+            "governorGloss": "Stadium", 
+            "governor": 3, 
+            "dependentGloss": "Levi"
+          }, 
+          {
+            "dep": "case", 
+            "dependent": 2, 
+            "governorGloss": "Levi", 
+            "governor": 1, 
+            "dependentGloss": "'s"
+          }
+        ], 
+        "collapsed-ccprocessed-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 3, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "Stadium"
+          }, 
+          {
+            "dep": "nmod:poss", 
+            "dependent": 1, 
+            "governorGloss": "Stadium", 
+            "governor": 3, 
+            "dependentGloss": "Levi"
+          }, 
+          {
+            "dep": "case", 
+            "dependent": 2, 
+            "governorGloss": "Levi", 
+            "governor": 1, 
+            "dependentGloss": "'s"
+          }
+        ], 
+        "line": 1
+      }, 
+      "new_answer": "Chicago"
+    }, 
+    {
+      "text": "Levi's Stadium in the San Francisco Bay Area at Santa Clara, California.", 
+      "answer_start": 355, 
+      "question": "Where did Super Bowl 50 take place?", 
+      "qas_id": "56be4db0acb8001400a502ee", 
+      "corenlp": {
+        "tokens": [
+          {
+            "index": 1, 
+            "word": "Levi", 
+            "lemma": "Levi", 
+            "after": "", 
+            "pos": "NNP", 
+            "characterOffsetEnd": 4, 
+            "characterOffsetBegin": 0, 
+            "originalText": "Levi", 
+            "ner": "PERSON", 
+            "before": ""
+          }, 
+          {
+            "index": 2, 
+            "word": "'s", 
+            "lemma": "'s", 
+            "after": " ", 
+            "pos": "POS", 
+            "characterOffsetEnd": 6, 
+            "characterOffsetBegin": 4, 
+            "originalText": "'s", 
+            "ner": "O", 
+            "before": ""
+          }, 
+          {
+            "index": 3, 
+            "word": "Stadium", 
+            "lemma": "stadium", 
+            "after": " ", 
+            "pos": "NN", 
+            "characterOffsetEnd": 14, 
+            "characterOffsetBegin": 7, 
+            "originalText": "Stadium", 
+            "ner": "O", 
+            "before": " "
+          }, 
+          {
+            "index": 4, 
+            "word": "in", 
+            "lemma": "in", 
+            "after": " ", 
+            "pos": "IN", 
+            "characterOffsetEnd": 17, 
+            "characterOffsetBegin": 15, 
+            "originalText": "in", 
+            "ner": "O", 
+            "before": " "
+          }, 
+          {
+            "index": 5, 
+            "word": "the", 
+            "lemma": "the", 
+            "after": " ", 
+            "pos": "DT", 
+            "characterOffsetEnd": 21, 
+            "characterOffsetBegin": 18, 
+            "originalText": "the", 
+            "ner": "O", 
+            "before": " "
+          }, 
+          {
+            "index": 6, 
+            "word": "San", 
+            "lemma": "San", 
+            "after": " ", 
+            "pos": "NNP", 
+            "characterOffsetEnd": 25, 
+            "characterOffsetBegin": 22, 
+            "originalText": "San", 
+            "ner": "LOCATION", 
+            "before": " "
+          }, 
+          {
+            "index": 7, 
+            "word": "Francisco", 
+            "lemma": "Francisco", 
+            "after": " ", 
+            "pos": "NNP", 
+            "characterOffsetEnd": 35, 
+            "characterOffsetBegin": 26, 
+            "originalText": "Francisco", 
+            "ner": "LOCATION", 
+            "before": " "
+          }, 
+          {
+            "index": 8, 
+            "word": "Bay", 
+            "lemma": "Bay", 
+            "after": " ", 
+            "pos": "NNP", 
+            "characterOffsetEnd": 39, 
+            "characterOffsetBegin": 36, 
+            "originalText": "Bay", 
+            "ner": "LOCATION", 
+            "before": " "
+          }, 
+          {
+            "index": 9, 
+            "word": "Area", 
+            "lemma": "Area", 
+            "after": " ", 
+            "pos": "NNP", 
+            "characterOffsetEnd": 44, 
+            "characterOffsetBegin": 40, 
+            "originalText": "Area", 
+            "ner": "LOCATION", 
+            "before": " "
+          }, 
+          {
+            "index": 10, 
+            "word": "at", 
+            "lemma": "at", 
+            "after": " ", 
+            "pos": "IN", 
+            "characterOffsetEnd": 47, 
+            "characterOffsetBegin": 45, 
+            "originalText": "at", 
+            "ner": "O", 
+            "before": " "
+          }, 
+          {
+            "index": 11, 
+            "word": "Santa", 
+            "lemma": "Santa", 
+            "after": " ", 
+            "pos": "NNP", 
+            "characterOffsetEnd": 53, 
+            "characterOffsetBegin": 48, 
+            "originalText": "Santa", 
+            "ner": "LOCATION", 
+            "before": " "
+          }, 
+          {
+            "index": 12, 
+            "word": "Clara", 
+            "lemma": "Clara", 
+            "after": "", 
+            "pos": "NNP", 
+            "characterOffsetEnd": 59, 
+            "characterOffsetBegin": 54, 
+            "originalText": "Clara", 
+            "ner": "LOCATION", 
+            "before": " "
+          }, 
+          {
+            "index": 13, 
+            "word": ",", 
+            "lemma": ",", 
+            "after": " ", 
+            "pos": ",", 
+            "characterOffsetEnd": 60, 
+            "characterOffsetBegin": 59, 
+            "originalText": ",", 
+            "ner": "O", 
+            "before": ""
+          }, 
+          {
+            "index": 14, 
+            "word": "California", 
+            "lemma": "California", 
+            "after": "", 
+            "pos": "NNP", 
+            "characterOffsetEnd": 71, 
+            "characterOffsetBegin": 61, 
+            "originalText": "California", 
+            "ner": "LOCATION", 
+            "before": " "
+          }, 
+          {
+            "index": 15, 
+            "word": ".", 
+            "lemma": ".", 
+            "after": "", 
+            "pos": ".", 
+            "characterOffsetEnd": 72, 
+            "characterOffsetBegin": 71, 
+            "originalText": ".", 
+            "ner": "O", 
+            "before": ""
+          }
+        ], 
+        "index": 0, 
+        "basic-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 3, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "Stadium"
+          }, 
+          {
+            "dep": "nmod:poss", 
+            "dependent": 1, 
+            "governorGloss": "Stadium", 
+            "governor": 3, 
+            "dependentGloss": "Levi"
+          }, 
+          {
+            "dep": "case", 
+            "dependent": 2, 
+            "governorGloss": "Levi", 
+            "governor": 1, 
+            "dependentGloss": "'s"
+          }, 
+          {
+            "dep": "case", 
+            "dependent": 4, 
+            "governorGloss": "Francisco", 
+            "governor": 7, 
+            "dependentGloss": "in"
+          }, 
+          {
+            "dep": "det", 
+            "dependent": 5, 
+            "governorGloss": "Francisco", 
+            "governor": 7, 
+            "dependentGloss": "the"
+          }, 
+          {
+            "dep": "compound", 
+            "dependent": 6, 
+            "governorGloss": "Francisco", 
+            "governor": 7, 
+            "dependentGloss": "San"
+          }, 
+          {
+            "dep": "nmod", 
+            "dependent": 7, 
+            "governorGloss": "Stadium", 
+            "governor": 3, 
+            "dependentGloss": "Francisco"
+          }, 
+          {
+            "dep": "compound", 
+            "dependent": 8, 
+            "governorGloss": "Area", 
+            "governor": 9, 
+            "dependentGloss": "Bay"
+          }, 
+          {
+            "dep": "dep", 
+            "dependent": 9, 
+            "governorGloss": "Stadium", 
+            "governor": 3, 
+            "dependentGloss": "Area"
+          }, 
+          {
+            "dep": "case", 
+            "dependent": 10, 
+            "governorGloss": "Clara", 
+            "governor": 12, 
+            "dependentGloss": "at"
+          }, 
+          {
+            "dep": "compound", 
+            "dependent": 11, 
+            "governorGloss": "Clara", 
+            "governor": 12, 
+            "dependentGloss": "Santa"
+          }, 
+          {
+            "dep": "nmod", 
+            "dependent": 12, 
+            "governorGloss": "Area", 
+            "governor": 9, 
+            "dependentGloss": "Clara"
+          }, 
+          {
+            "dep": "punct", 
+            "dependent": 13, 
+            "governorGloss": "Clara", 
+            "governor": 12, 
+            "dependentGloss": ","
+          }, 
+          {
+            "dep": "appos", 
+            "dependent": 14, 
+            "governorGloss": "Clara", 
+            "governor": 12, 
+            "dependentGloss": "California"
+          }, 
+          {
+            "dep": "punct", 
+            "dependent": 15, 
+            "governorGloss": "Stadium", 
+            "governor": 3, 
+            "dependentGloss": "."
+          }
+        ], 
+        "parse": "(ROOT\n  (NP\n    (NP\n      (NP\n        (NP (NNP Levi) (POS 's))\n        (NN Stadium))\n      (PP (IN in)\n        (NP (DT the) (NNP San) (NNP Francisco))))\n    (NP\n      (NP (NNP Bay) (NNP Area))\n      (PP (IN at)\n        (NP\n          (NP (NNP Santa) (NNP Clara))\n          (, ,)\n          (NP (NNP California)))))\n    (. .)))", 
+        "collapsed-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 3, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "Stadium"
+          }, 
+          {
+            "dep": "nmod:poss", 
+            "dependent": 1, 
+            "governorGloss": "Stadium", 
+            "governor": 3, 
+            "dependentGloss": "Levi"
+          }, 
+          {
+            "dep": "case", 
+            "dependent": 2, 
+            "governorGloss": "Levi", 
+            "governor": 1, 
+            "dependentGloss": "'s"
+          }, 
+          {
+            "dep": "case", 
+            "dependent": 4, 
+            "governorGloss": "Francisco", 
+            "governor": 7, 
+            "dependentGloss": "in"
+          }, 
+          {
+            "dep": "det", 
+            "dependent": 5, 
+            "governorGloss": "Francisco", 
+            "governor": 7, 
+            "dependentGloss": "the"
+          }, 
+          {
+            "dep": "compound", 
+            "dependent": 6, 
+            "governorGloss": "Francisco", 
+            "governor": 7, 
+            "dependentGloss": "San"
+          }, 
+          {
+            "dep": "nmod:in", 
+            "dependent": 7, 
+            "governorGloss": "Stadium", 
+            "governor": 3, 
+            "dependentGloss": "Francisco"
+          }, 
+          {
+            "dep": "compound", 
+            "dependent": 8, 
+            "governorGloss": "Area", 
+            "governor": 9, 
+            "dependentGloss": "Bay"
+          }, 
+          {
+            "dep": "dep", 
+            "dependent": 9, 
+            "governorGloss": "Stadium", 
+            "governor": 3, 
+            "dependentGloss": "Area"
+          }, 
+          {
+            "dep": "case", 
+            "dependent": 10, 
+            "governorGloss": "Clara", 
+            "governor": 12, 
+            "dependentGloss": "at"
+          }, 
+          {
+            "dep": "compound", 
+            "dependent": 11, 
+            "governorGloss": "Clara", 
+            "governor": 12, 
+            "dependentGloss": "Santa"
+          }, 
+          {
+            "dep": "nmod:at", 
+            "dependent": 12, 
+            "governorGloss": "Area", 
+            "governor": 9, 
+            "dependentGloss": "Clara"
+          }, 
+          {
+            "dep": "punct", 
+            "dependent": 13, 
+            "governorGloss": "Clara", 
+            "governor": 12, 
+            "dependentGloss": ","
+          }, 
+          {
+            "dep": "appos", 
+            "dependent": 14, 
+            "governorGloss": "Clara", 
+            "governor": 12, 
+            "dependentGloss": "California"
+          }, 
+          {
+            "dep": "punct", 
+            "dependent": 15, 
+            "governorGloss": "Stadium", 
+            "governor": 3, 
+            "dependentGloss": "."
+          }
+        ], 
+        "collapsed-ccprocessed-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 3, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "Stadium"
+          }, 
+          {
+            "dep": "nmod:poss", 
+            "dependent": 1, 
+            "governorGloss": "Stadium", 
+            "governor": 3, 
+            "dependentGloss": "Levi"
+          }, 
+          {
+            "dep": "case", 
+            "dependent": 2, 
+            "governorGloss": "Levi", 
+            "governor": 1, 
+            "dependentGloss": "'s"
+          }, 
+          {
+            "dep": "case", 
+            "dependent": 4, 
+            "governorGloss": "Francisco", 
+            "governor": 7, 
+            "dependentGloss": "in"
+          }, 
+          {
+            "dep": "det", 
+            "dependent": 5, 
+            "governorGloss": "Francisco", 
+            "governor": 7, 
+            "dependentGloss": "the"
+          }, 
+          {
+            "dep": "compound", 
+            "dependent": 6, 
+            "governorGloss": "Francisco", 
+            "governor": 7, 
+            "dependentGloss": "San"
+          }, 
+          {
+            "dep": "nmod:in", 
+            "dependent": 7, 
+            "governorGloss": "Stadium", 
+            "governor": 3, 
+            "dependentGloss": "Francisco"
+          }, 
+          {
+            "dep": "compound", 
+            "dependent": 8, 
+            "governorGloss": "Area", 
+            "governor": 9, 
+            "dependentGloss": "Bay"
+          }, 
+          {
+            "dep": "dep", 
+            "dependent": 9, 
+            "governorGloss": "Stadium", 
+            "governor": 3, 
+            "dependentGloss": "Area"
+          }, 
+          {
+            "dep": "case", 
+            "dependent": 10, 
+            "governorGloss": "Clara", 
+            "governor": 12, 
+            "dependentGloss": "at"
+          }, 
+          {
+            "dep": "compound", 
+            "dependent": 11, 
+            "governorGloss": "Clara", 
+            "governor": 12, 
+            "dependentGloss": "Santa"
+          }, 
+          {
+            "dep": "nmod:at", 
+            "dependent": 12, 
+            "governorGloss": "Area", 
+            "governor": 9, 
+            "dependentGloss": "Clara"
+          }, 
+          {
+            "dep": "punct", 
+            "dependent": 13, 
+            "governorGloss": "Clara", 
+            "governor": 12, 
+            "dependentGloss": ","
+          }, 
+          {
+            "dep": "appos", 
+            "dependent": 14, 
+            "governorGloss": "Clara", 
+            "governor": 12, 
+            "dependentGloss": "California"
+          }, 
+          {
+            "dep": "punct", 
+            "dependent": 15, 
+            "governorGloss": "Stadium", 
+            "governor": 3, 
+            "dependentGloss": "."
+          }
+        ], 
+        "line": 1
+      }, 
+      "new_answer": "Chicago"
+    }
+  ], 
+  "pos_end_nnp": [
+    {
+      "text": "Levi's Stadium in the San Francisco Bay Area at Santa Clara", 
+      "answer_start": 355, 
+      "question": "What venue did Super Bowl 50 take place in?", 
+      "qas_id": "56beace93aeaaa14008c91e0", 
+      "corenlp": {
+        "tokens": [
+          {
+            "index": 1, 
+            "word": "Levi", 
+            "lemma": "Levi", 
+            "after": "", 
+            "pos": "NNP", 
+            "characterOffsetEnd": 4, 
+            "characterOffsetBegin": 0, 
+            "originalText": "Levi", 
+            "ner": "PERSON", 
+            "before": ""
+          }, 
+          {
+            "index": 2, 
+            "word": "'s", 
+            "lemma": "'s", 
+            "after": " ", 
+            "pos": "POS", 
+            "characterOffsetEnd": 6, 
+            "characterOffsetBegin": 4, 
+            "originalText": "'s", 
+            "ner": "O", 
+            "before": ""
+          }, 
+          {
+            "index": 3, 
+            "word": "Stadium", 
+            "lemma": "stadium", 
+            "after": " ", 
+            "pos": "NN", 
+            "characterOffsetEnd": 14, 
+            "characterOffsetBegin": 7, 
+            "originalText": "Stadium", 
+            "ner": "O", 
+            "before": " "
+          }, 
+          {
+            "index": 4, 
+            "word": "in", 
+            "lemma": "in", 
+            "after": " ", 
+            "pos": "IN", 
+            "characterOffsetEnd": 17, 
+            "characterOffsetBegin": 15, 
+            "originalText": "in", 
+            "ner": "O", 
+            "before": " "
+          }, 
+          {
+            "index": 5, 
+            "word": "the", 
+            "lemma": "the", 
+            "after": " ", 
+            "pos": "DT", 
+            "characterOffsetEnd": 21, 
+            "characterOffsetBegin": 18, 
+            "originalText": "the", 
+            "ner": "O", 
+            "before": " "
+          }, 
+          {
+            "index": 6, 
+            "word": "San", 
+            "lemma": "San", 
+            "after": " ", 
+            "pos": "NNP", 
+            "characterOffsetEnd": 25, 
+            "characterOffsetBegin": 22, 
+            "originalText": "San", 
+            "ner": "LOCATION", 
+            "before": " "
+          }, 
+          {
+            "index": 7, 
+            "word": "Francisco", 
+            "lemma": "Francisco", 
+            "after": " ", 
+            "pos": "NNP", 
+            "characterOffsetEnd": 35, 
+            "characterOffsetBegin": 26, 
+            "originalText": "Francisco", 
+            "ner": "LOCATION", 
+            "before": " "
+          }, 
+          {
+            "index": 8, 
+            "word": "Bay", 
+            "lemma": "Bay", 
+            "after": " ", 
+            "pos": "NNP", 
+            "characterOffsetEnd": 39, 
+            "characterOffsetBegin": 36, 
+            "originalText": "Bay", 
+            "ner": "LOCATION", 
+            "before": " "
+          }, 
+          {
+            "index": 9, 
+            "word": "Area", 
+            "lemma": "Area", 
+            "after": " ", 
+            "pos": "NNP", 
+            "characterOffsetEnd": 44, 
+            "characterOffsetBegin": 40, 
+            "originalText": "Area", 
+            "ner": "LOCATION", 
+            "before": " "
+          }, 
+          {
+            "index": 10, 
+            "word": "at", 
+            "lemma": "at", 
+            "after": " ", 
+            "pos": "IN", 
+            "characterOffsetEnd": 47, 
+            "characterOffsetBegin": 45, 
+            "originalText": "at", 
+            "ner": "O", 
+            "before": " "
+          }, 
+          {
+            "index": 11, 
+            "word": "Santa", 
+            "lemma": "Santa", 
+            "after": " ", 
+            "pos": "NNP", 
+            "characterOffsetEnd": 53, 
+            "characterOffsetBegin": 48, 
+            "originalText": "Santa", 
+            "ner": "LOCATION", 
+            "before": " "
+          }, 
+          {
+            "index": 12, 
+            "word": "Clara", 
+            "lemma": "Clara", 
+            "after": "", 
+            "pos": "NNP", 
+            "characterOffsetEnd": 59, 
+            "characterOffsetBegin": 54, 
+            "originalText": "Clara", 
+            "ner": "LOCATION", 
+            "before": " "
+          }
+        ], 
+        "index": 0, 
+        "basic-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 3, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "Stadium"
+          }, 
+          {
+            "dep": "nmod:poss", 
+            "dependent": 1, 
+            "governorGloss": "Stadium", 
+            "governor": 3, 
+            "dependentGloss": "Levi"
+          }, 
+          {
+            "dep": "case", 
+            "dependent": 2, 
+            "governorGloss": "Levi", 
+            "governor": 1, 
+            "dependentGloss": "'s"
+          }, 
+          {
+            "dep": "case", 
+            "dependent": 4, 
+            "governorGloss": "Area", 
+            "governor": 9, 
+            "dependentGloss": "in"
+          }, 
+          {
+            "dep": "det", 
+            "dependent": 5, 
+            "governorGloss": "Area", 
+            "governor": 9, 
+            "dependentGloss": "the"
+          }, 
+          {
+            "dep": "compound", 
+            "dependent": 6, 
+            "governorGloss": "Area", 
+            "governor": 9, 
+            "dependentGloss": "San"
+          }, 
+          {
+            "dep": "compound", 
+            "dependent": 7, 
+            "governorGloss": "Area", 
+            "governor": 9, 
+            "dependentGloss": "Francisco"
+          }, 
+          {
+            "dep": "compound", 
+            "dependent": 8, 
+            "governorGloss": "Area", 
+            "governor": 9, 
+            "dependentGloss": "Bay"
+          }, 
+          {
+            "dep": "nmod", 
+            "dependent": 9, 
+            "governorGloss": "Stadium", 
+            "governor": 3, 
+            "dependentGloss": "Area"
+          }, 
+          {
+            "dep": "case", 
+            "dependent": 10, 
+            "governorGloss": "Clara", 
+            "governor": 12, 
+            "dependentGloss": "at"
+          }, 
+          {
+            "dep": "compound", 
+            "dependent": 11, 
+            "governorGloss": "Clara", 
+            "governor": 12, 
+            "dependentGloss": "Santa"
+          }, 
+          {
+            "dep": "nmod", 
+            "dependent": 12, 
+            "governorGloss": "Stadium", 
+            "governor": 3, 
+            "dependentGloss": "Clara"
+          }
+        ], 
+        "parse": "(ROOT\n  (NP\n    (NP\n      (NP\n        (NP (NNP Levi) (POS 's))\n        (NN Stadium))\n      (PP (IN in)\n        (NP (DT the) (NNP San) (NNP Francisco) (NNP Bay) (NNP Area))))\n    (PP (IN at)\n      (NP (NNP Santa) (NNP Clara)))))", 
+        "collapsed-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 3, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "Stadium"
+          }, 
+          {
+            "dep": "nmod:poss", 
+            "dependent": 1, 
+            "governorGloss": "Stadium", 
+            "governor": 3, 
+            "dependentGloss": "Levi"
+          }, 
+          {
+            "dep": "case", 
+            "dependent": 2, 
+            "governorGloss": "Levi", 
+            "governor": 1, 
+            "dependentGloss": "'s"
+          }, 
+          {
+            "dep": "case", 
+            "dependent": 4, 
+            "governorGloss": "Area", 
+            "governor": 9, 
+            "dependentGloss": "in"
+          }, 
+          {
+            "dep": "det", 
+            "dependent": 5, 
+            "governorGloss": "Area", 
+            "governor": 9, 
+            "dependentGloss": "the"
+          }, 
+          {
+            "dep": "compound", 
+            "dependent": 6, 
+            "governorGloss": "Area", 
+            "governor": 9, 
+            "dependentGloss": "San"
+          }, 
+          {
+            "dep": "compound", 
+            "dependent": 7, 
+            "governorGloss": "Area", 
+            "governor": 9, 
+            "dependentGloss": "Francisco"
+          }, 
+          {
+            "dep": "compound", 
+            "dependent": 8, 
+            "governorGloss": "Area", 
+            "governor": 9, 
+            "dependentGloss": "Bay"
+          }, 
+          {
+            "dep": "nmod:in", 
+            "dependent": 9, 
+            "governorGloss": "Stadium", 
+            "governor": 3, 
+            "dependentGloss": "Area"
+          }, 
+          {
+            "dep": "case", 
+            "dependent": 10, 
+            "governorGloss": "Clara", 
+            "governor": 12, 
+            "dependentGloss": "at"
+          }, 
+          {
+            "dep": "compound", 
+            "dependent": 11, 
+            "governorGloss": "Clara", 
+            "governor": 12, 
+            "dependentGloss": "Santa"
+          }, 
+          {
+            "dep": "nmod:at", 
+            "dependent": 12, 
+            "governorGloss": "Stadium", 
+            "governor": 3, 
+            "dependentGloss": "Clara"
+          }
+        ], 
+        "collapsed-ccprocessed-dependencies": [
+          {
+            "dep": "ROOT", 
+            "dependent": 3, 
+            "governorGloss": "ROOT", 
+            "governor": 0, 
+            "dependentGloss": "Stadium"
+          }, 
+          {
+            "dep": "nmod:poss", 
+            "dependent": 1, 
+            "governorGloss": "Stadium", 
+            "governor": 3, 
+            "dependentGloss": "Levi"
+          }, 
+          {
+            "dep": "case", 
+            "dependent": 2, 
+            "governorGloss": "Levi", 
+            "governor": 1, 
+            "dependentGloss": "'s"
+          }, 
+          {
+            "dep": "case", 
+            "dependent": 4, 
+            "governorGloss": "Area", 
+            "governor": 9, 
+            "dependentGloss": "in"
+          }, 
+          {
+            "dep": "det", 
+            "dependent": 5, 
+            "governorGloss": "Area", 
+            "governor": 9, 
+            "dependentGloss": "the"
+          }, 
+          {
+            "dep": "compound", 
+            "dependent": 6, 
+            "governorGloss": "Area", 
+            "governor": 9, 
+            "dependentGloss": "San"
+          }, 
+          {
+            "dep": "compound", 
+            "dependent": 7, 
+            "governorGloss": "Area", 
+            "governor": 9, 
+            "dependentGloss": "Francisco"
+          }, 
+          {
+            "dep": "compound", 
+            "dependent": 8, 
+            "governorGloss": "Area", 
+            "governor": 9, 
+            "dependentGloss": "Bay"
+          }, 
+          {
+            "dep": "nmod:in", 
+            "dependent": 9, 
+            "governorGloss": "Stadium", 
+            "governor": 3, 
+            "dependentGloss": "Area"
+          }, 
+          {
+            "dep": "case", 
+            "dependent": 10, 
+            "governorGloss": "Clara", 
+            "governor": 12, 
+            "dependentGloss": "at"
+          }, 
+          {
+            "dep": "compound", 
+            "dependent": 11, 
+            "governorGloss": "Clara", 
+            "governor": 12, 
+            "dependentGloss": "Santa"
+          }, 
+          {
+            "dep": "nmod:at", 
+            "dependent": 12, 
+            "governorGloss": "Stadium", 
+            "governor": 3, 
+            "dependentGloss": "Clara"
+          }
+        ], 
+        "line": 1
+      }, 
+      "new_answer": "Central Park"
+    }
+  ]
+}

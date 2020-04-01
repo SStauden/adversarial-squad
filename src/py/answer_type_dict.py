@@ -217,14 +217,14 @@ def run_corenlp(answer_list):
     # parsing quesitons
     print >> sys.stderr, 'Parsing data...'
     for single_answer in answer_list:
-      response = client.query_const_parse(single_answer, add_ner=True)
+      response = client.query_const_parse(single_answer["text"], add_ner=True)
       # cache[sentence] = response['sentences'][0]
-      single_answer["tokens"] = response['sentences'][0]
+      single_answer["corenlp"] = response['sentences'][0]
 
 def get_answer_type(answer_obj):
 
    # get answer tokens
-    a_toks = answer_obj['tokens']
+    a_toks = answer_obj['corenlp']['tokens']
 
     # check wheather answer begin with "the" or "a" or None of both
     determiner = get_determiner_for_answers(answer_obj['text'])
@@ -236,7 +236,7 @@ def get_answer_type(answer_obj):
     else: 
       raise ValueError('Missing answer')
 
-    return res
+    return rule_name, res
 
 def get_determiner_for_answers(answer_text):
   words = answer_text.split(' ')
@@ -269,10 +269,12 @@ def generate_sentence_type_dict(dataset_file):
     answer_obj["new_answer"] = new_ans
 
     # add
-    res_dict.get(rule, []).append(answer_obj)
+    if rule not in res_dict:
+      res_dict[rule] = []
+
+    res_dict[rule].append(answer_obj)
     # print("processed answer {}/{}\r".format(index + 1, len(answers_list)), end="")
     print("processed answer {}/{}\r".format(index + 1, len(answers_list)))
-
 
   return res_dict
 
