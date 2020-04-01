@@ -471,18 +471,27 @@ def print_answers(qas):
     print ', '.join(toks).encode('utf-8')
 
 def run_corenlp(dataset, qas):
+  
   cache = {}
+
+  # open a CoreNLP Server
   with corenlp.CoreNLPServer(port=CORENLP_PORT, logfile=CORENLP_LOG) as server:
     client = corenlp.CoreNLPClient(port=CORENLP_PORT)
+
+    # parsing paragraphs
     print >> sys.stderr, 'Running NER for paragraphs...'
     for article in dataset['data']:
       for paragraph in article['paragraphs']:
         response = client.query_ner(paragraph['context'])
         cache[paragraph['context']] = response
+
+    # parsing quesitons
     print >> sys.stderr, 'Parsing questions...'
     for question, answers, context in qas:
       response = client.query_const_parse(question, add_ner=True)
       cache[question] = response['sentences'][0]
+
+  # saving to file
   cache_file = CORENLP_CACHES[OPTS.dataset]
   with open(cache_file, 'w') as f:
     json.dump(cache, f, indent=2)
@@ -1156,7 +1165,10 @@ def dump_data(dataset, prefix, use_answer_placeholder=False, alteration_strategy
     out_article = {'title': article['title'], 'paragraphs': out_paragraphs}
     out_data.append(out_article)
     for paragraph in article['paragraphs']:
+
+      # append original paragraph
       out_paragraphs.append(paragraph)
+
       for qa in paragraph['qas']:
         question = qa['question'].strip()
         if not OPTS.quiet:
@@ -1165,19 +1177,32 @@ def dump_data(dataset, prefix, use_answer_placeholder=False, alteration_strategy
           answer = 'ANSWER'
           determiner = ''
         else:
+
+          # get tokens of parsed paragraph
           p_parse = corenlp_cache[paragraph['context']]
+
+          # get answer tokens
           ind, a_toks = get_tokens_for_answers(qa['answers'], p_parse)
+
+          # check wheather answer begin with "the" or "a" or None of both
           determiner = get_determiner_for_answers(qa['answers'])
           answer_obj = qa['answers'][ind]
+
+          # find and apply a fitting rule to answer object
           for rule_name, func in ANSWER_RULES:
             answer = func(answer_obj, a_toks, question, determiner=determiner)
             if answer: break
           else:
             raise ValueError('Missing answer')
+
         answer_mturk = "<span class='answer'>%s</span>" % answer
+
+        # get tokens of pared question
         q_parse = corenlp_cache[question]
         q_tokens = q_parse['tokens']
         q_const_parse = read_const_parse(q_parse['parse'])
+
+        # Mutate Question aligned to strategy
         if alteration_strategy:
           # Easiest to alter the question before converting
           q_list = alter_question(
@@ -1185,17 +1210,25 @@ def dump_data(dataset, prefix, use_answer_placeholder=False, alteration_strategy
               postag_dict, strategy=alteration_strategy)
         else:
           q_list = [(question, q_tokens, q_const_parse, 'unaltered')]
+
+        # bring mutated question and fake answer together to one declarative sentence
         for q_str, q_tokens, q_const_parse, tag in q_list:
           for rule in CONVERSION_RULES:
             sent = rule.convert(q_str, answer, q_tokens, q_const_parse)
             if sent:
+
+              # print generated sentence
               if not OPTS.quiet:
                 print ('  Sent (%s): %s' % (tag, colored(sent, 'cyan'))).encode('utf-8')
+
+              # initialize a new QAS object
               cur_qa = {
                   'question': qa['question'],
                   'id': '%s-%s' % (qa['id'], tag),
                   'answers': qa['answers']
               }
+
+              # prepend the generated sentence to the original paragraph
               if OPTS.prepend:
                 cur_text = '%s %s' % (sent, paragraph['context'])
                 new_answers = []
@@ -1205,24 +1238,34 @@ def dump_data(dataset, prefix, use_answer_placeholder=False, alteration_strategy
                       'answer_start': a['answer_start'] + len(sent) + 1
                   })
                 cur_qa['answers'] = new_answers
+
+              # append the generated answer otherwise
               else:
                 cur_text = '%s %s' % (paragraph['context'], sent)
+
+              # create paragraph with new context text
               cur_paragraph = {'context': cur_text, 'qas': [cur_qa]}
               out_paragraphs.append(cur_paragraph)
+
               sent_mturk = rule.convert(q_str, answer_mturk, q_tokens, q_const_parse)
               mturk_data.append((qa['id'], sent_mturk))
               break
 
+  # chose prefix for file naming
   if OPTS.dataset != 'dev':
     prefix = '%s-%s' % (OPTS.dataset, prefix)
   if OPTS.modified_answers:
     prefix = '%s-mod' % prefix
   if OPTS.prepend:
     prefix = '%s-pre' % prefix
+
+  # save new dataset to json
   with open(os.path.join('out', prefix + '.json'), 'w') as f:
     json.dump(out_obj, f)
   with open(os.path.join('out', prefix + '-indented.json'), 'w') as f:
     json.dump(out_obj, f, indent=2)
+
+  # save mturk data
   with open(os.path.join('out', prefix + '-mturk.tsv'), 'w') as f:
     for qid, sent in mturk_data:
       print >> f, ('%s\t%s' % (qid, sent)).encode('ascii', 'ignore')

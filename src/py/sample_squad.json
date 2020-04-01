@@ -1,0 +1,38 @@
+{"version": "1.1", 
+  "data": [
+    {"paragraphs": 
+      [{"qas": 
+        [{"question": "Where did Super Bowl 50 take place?", 
+          "id": "56be4db0acb8001400a502ee", 
+          "answers": 
+            [{"text": "Santa Clara, California", "answer_start": 403}, 
+            {"text": "Levi's Stadium", "answer_start": 355}, 
+            {"text": "Levi's Stadium in the San Francisco Bay Area at Santa Clara, California.", "answer_start": 355}]}, 
+        {"question": "What day was the Super Bowl played on?", 
+        "id": "56bea9923aeaaa14008c91bb", 
+          "answers": [
+            {"text": "February 7, 2016", "answer_start": 334}, 
+            {"text": "February 7", "answer_start": 334}, 
+            {"text": "February 7, 2016", "answer_start": 334}]}, 
+                {"question": "What venue did Super Bowl 50 take place in?", 
+                  "id": "56beace93aeaaa14008c91e0", 
+                "answers": [{"text": "Levi's Stadium", "answer_start": 355}, 
+                  {"text": "Levi's Stadium", "answer_start": 355}, 
+                  {"text": "Levi's Stadium in the San Francisco Bay Area at Santa Clara", "answer_start": 355}]}, 
+                  {"question": "What year did the Denver Broncos secure a Super Bowl title for the third time?", 
+                    "id": "56bf10f43aeaaa14008c94fd", 
+                    "answers": [{"text": "2015", "answer_start": 116}, 
+                      {"text": "2016", "answer_start": 346}, 
+                      {"text": "2015", "answer_start": 116}]}, 
+                      {"question": "What was the final score of Super Bowl 50? ", 
+                        "id": "56bf10f43aeaaa14008c9500", 
+                        "answers": [{"text": "24\u201310", "answer_start": 267}, 
+                          {"text": "24\u201310", "answer_start": 267}, 
+                          {"text": "24\u201310", "answer_start": 267}]}, 
+                          {"question": "Who won Super Bowl 50?", 
+                            "id": "56d20362e7d4791d009025eb", 
+                            "answers": [{"text": "Denver Broncos", "answer_start": 177}, 
+                              {"text": "Denver Broncos", "answer_start": 177}, 
+                              {"text": "Denver Broncos", "answer_start": 177}]}], 
+                              "context": "Super Bowl 50 was an American football game to determine the champion of the National Football League (NFL) for the 2015 season. The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conference (NFC) champion Carolina Panthers 24\u201310 to earn their third Super Bowl title. The game was played on February 7, 2016, at Levi's Stadium in the San Francisco Bay Area at Santa Clara, California. As this was the 50th Super Bowl, the league emphasized the \"golden anniversary\" with various gold-themed initiatives, as well as temporarily suspending the tradition of naming each Super Bowl game with Roman numerals (under which the game would have been known as \"Super Bowl L\"), so that the logo could prominently feature the Arabic numerals 50."}
+                            ]}]}
