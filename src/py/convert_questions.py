@@ -1232,6 +1232,8 @@ def dump_data(dataset, prefix, use_answer_placeholder=False, alteration_strategy
               if OPTS.prepend:
                 cur_text = '%s %s' % (sent, paragraph['context'])
                 new_answers = []
+
+                # shift old answer position
                 for a in qa['answers']:
                   new_answers.append({
                       'text': a['text'],

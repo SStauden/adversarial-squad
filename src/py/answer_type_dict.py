@@ -12,6 +12,8 @@ import re
 from termcolor import colored
 import sys
 
+OPTS = None
+
 CORENLP_PORT = 8101
 CORENLP_LOG = 'corenlp.log'
 
@@ -187,6 +189,13 @@ ANSWER_RULES = [
     ('catch_all', ans_catch_all('aliens')),
 ]
 
+# Constants
+DATASETS = {
+    'dev': 'data/squad/dev-v1.1.json',
+    'sample1k': 'out/none_n1000_k1_s0.json',
+    'train': 'data/squad/train-v1.1.json',
+}
+
 # load dataset
 def read_data(filename):
   with open(filename) as f:
@@ -247,22 +256,22 @@ def get_determiner_for_answers(answer_text):
 def generate_sentence_type_dict(dataset_file):
 
   # read the dataset
-  print("reading dataset")
+  print("\treading dataset")
   data = read_data(dataset_file)
 
   # list up all answers
-  print("collecting answers")
+  print("\tcollecting answers")
   answers_list = get_answers(data)
 
   # add tokens
-  print("generating tokens")
+  print("\tgenerating tokens")
   run_corenlp(answers_list)
 
   # init answer dict
   res_dict = {}
 
   # search fitting rule
-  print("classifying answers")
+  print("\tclassifying answers")
   for index, answer_obj in enumerate(answers_list):
     (rule, new_ans) = get_answer_type(answer_obj)
 
@@ -276,15 +285,34 @@ def generate_sentence_type_dict(dataset_file):
     # print("processed answer {}/{}\r".format(index + 1, len(answers_list)), end="")
     print("processed answer {}/{}\r".format(index + 1, len(answers_list)))
 
+  print("extracted {} different rule-types from {} answers".format(len(res_dict), len(answers_list)))
   return res_dict
 
-   
+def parse_args():
+  parser = argparse.ArgumentParser('Creates a dict of all answers in the dataset with their rule type as key')
+
+  parser.add_argument('--dataset', '-d', default='dev',
+                      help='Which dataset (options: [%s])' % (', '.join(DATASETS)))
+
+  parser.add_argument('--outfile', '-o', default='sentence_dict.json',
+                      help='Filepath of where to save the dictionary.')
+
+  if len(sys.argv) == 1:
+    parser.print_help()
+    sys.exit(1)
+  return parser.parse_args()
 
 if __name__ == "__main__":
+
+  OPTS = parse_args()
   
-  dataset_file = "./src/py/sample_squad.json"
+  dataset_file = DATASETS[OPTS.dataset]
+
+  print("Generating Answer Sentence Dictionary")
   answer_dict = generate_sentence_type_dict(dataset_file)
-  
+
   # save new dataset to json
-  with open('sentence_dict.json', 'w') as f:
+  with open(OPTS.outfile, 'w') as f:
     json.dump(answer_dict, f, indent=2)
+
+  print("saved dict to {}".format(OPTS.outfile))
