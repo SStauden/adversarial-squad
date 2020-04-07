@@ -6,3 +6,4 @@ data/squad
 glove
 nectar
 src/py/nectar
+*.json

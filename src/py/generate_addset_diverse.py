@@ -923,15 +923,21 @@ class AddSentDiverseGenerator:
     # print(sent_list)
 
     # get position of insterted answer
-    para_start = " ".join(sent_list[0:(rand_pos + 1)])
+    pre_adv = " ".join(sent_list[0:(rand_pos)])
 
     # shift original answer position if necessarry
     for a in new_qa_obj['answers']:
-      if len(para_start) < a['answer_start']:
+      if (len(pre_adv) < a['answer_start']) or (rand_pos == 0):
         a['answer_start'] += len(adv_sentence_text) + 1
 
     # create QAS object
     new_qa_obj['id'] += "-addsentdiv"
+    new_qa_obj['adversarial_start'] = len(pre_adv) + 1
+
+    if rand_pos == 0:
+      new_qa_obj['adversarial_start'] = 0
+
+    new_qa_obj['adversarial_text'] = adv_sentence_text
     new_paragraph = {'context': " ".join(sent_list), 'qas': [new_qa_obj]}
 
     # return new adversarial QAS object
@@ -1001,7 +1007,7 @@ class AddSentDiverseGenerator:
 
     print("generated {} adversarial paragraphs".format(len(out_paragraphs)))
     print("saving results to {}".format(out_name))
-    self.save_to_json(out_data, out_name)
+    self.save_to_json({"data": out_data, "version": "1.1"}, out_name)
 
 
 def parse_args():
